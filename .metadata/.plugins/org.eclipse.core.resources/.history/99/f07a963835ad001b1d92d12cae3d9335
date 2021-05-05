@@ -1,0 +1,21 @@
+package com.kripa.gurucourse.brewery.service;
+
+import com.kripa.gurucourse.brewery.model.CustomerDto;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CustomerServiceImpl implements CustomerService{
+    @Override
+    public CustomerDto getCustomerById(Long customerId) {
+        CustomerDto dto = new CustomerDto();
+        dto.setCustomerId(1L);
+        dto.setCustomerName("Kripa");
+        return dto;
+    }
+
+    @Override
+    public CustomerDto createCustomer(CustomerDto dto) {
+        
+        return null;
+    }
+}

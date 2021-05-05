@@ -1,0 +1,12 @@
+package com.kripa.gurucourse.brewery.service;
+
+import com.kripa.gurucourse.brewery.model.BeerDto;
+import org.springframework.stereotype.Service;
+
+
+
+public interface BeerService {
+    public BeerDto getBeerById(Long beerId);
+
+	public BeerDto savedBeer(BeerDto beerDto);
+}
