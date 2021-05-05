@@ -1072,3 +1072,15 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-05-04 21:49:14.663
 !MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.8 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-04 21:57:43.167
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DuheWeCs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-04 21:57:43.167
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DuheWeCs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-04 21:57:43.168
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-04 21:57:43.168
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DuheWeCs => OK
