@@ -10,13 +10,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDto {
+public class CustomerDto {
 
-    private Long id;
-    private String beerName;
-    private String beerStyle;
-    private Long upc;
-
-
+    private Long customerId;
+    private String customerName;
 
 }
