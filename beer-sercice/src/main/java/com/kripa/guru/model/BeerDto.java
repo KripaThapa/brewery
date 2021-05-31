@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BeerDto {
-	private UUID id;
+	private Long id;
 	private Integer version;
 	
 	private OffsetDateTime createdDate;
